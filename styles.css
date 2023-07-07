@@ -61,7 +61,7 @@ p {
   height: 720px;
   top: 70px;
   position: relative;
-  background-image: url(images/bg/header-shapes\ mobile.png);
+  background-image: url(Images/bg/header-shapes\ mobile.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center 50px;
@@ -72,6 +72,10 @@ p {
 
 .hero-text {
   margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: none;
 }
 
 .hero-text h1 {
