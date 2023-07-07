@@ -71,7 +71,8 @@ p {
 }
 
 .hero-text {
-  display: flex;
+  height: 120px;
+  justify-content: flex-start;
 }
 
 .hero-text h1 {
