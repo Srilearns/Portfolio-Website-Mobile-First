@@ -71,9 +71,8 @@ p {
 }
 
 .hero-text {
+  margin-top: 120 px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .hero-text h1 {
