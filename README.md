@@ -60,7 +60,7 @@
 To get a local copy up and running, follow these steps.
 Open your Terminal
 - Navigate to the desired directory[folder] to which you want to clone the repository to
-- [Copy & Paste] git clone https://github.com/Srilearns/Microverse-Mobile-First-Portfolio.git
+- [Copy & Paste] git clone https://github.com/Srilearns/Portfolio-Website-Mobile-First.git
 
 ### Prerequisites
 
@@ -73,13 +73,13 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
--  git clone https://github.com/Srilearns/Microverse-Mobile-First-Portfolio.git
+-  git clone https://github.com/Srilearns/Portfolio-Website-Mobile-First.git
 
 Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Srilearns/Microverse-Mobile-First-Portfolio.git
+  git clone https://github.com/Srilearns/Portfolio-Website-Mobile-First.git
 ```
 
 
@@ -103,7 +103,7 @@ This project is deployed by using GitHub tools.
 
 ### Online-Link
 
-https://srilearns.github.io/Microverse-Mobile-First-Portfolio/
+https://srilearns.github.io/Portfolio-Website-Mobile-First/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,6 +159,6 @@ I would like to thank Microverse and my coding partners.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Srilearns/Microverse-Mobile-First-Portfolio/blob/Mobile-First/MIT.md) licensed.
+This project is [MIT](https://github.com/Srilearns/Portfolio-Website-Mobile-First/blob/Mobile-First/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
