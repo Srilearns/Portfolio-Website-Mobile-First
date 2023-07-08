@@ -88,9 +88,12 @@ p {
   height: 718px;
   width: 100%;
 }
-
-.banner .banner-text {
-  margin-top: 130px;
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  justify-content: flex-start;
+}
 }
 
 .about-text h1 {
