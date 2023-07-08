@@ -173,7 +173,7 @@ p {
   padding: 20px;
   margin-top: 104px;
   border: 1px solid #e6e8eb;
-  align-items:center;
+  align-items: center;
   gap: 12px;
   width: 295px;
   height: 520px;
@@ -292,13 +292,13 @@ p {
 }
 
 .btn-default:active {
-  background-color:#6070ff;
+  background-color: #6070ff;
   color: #fff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 .btn-default:hover {
-  background-color:#6070ff;
+  background-color: #6070ff;
   color: #fff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
