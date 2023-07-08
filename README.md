@@ -159,6 +159,6 @@ I would like to thank Microverse and my coding partners.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Srilearns/Portfolio-Website-Mobile-First/blob/Mobile-First/MIT.md) licensed.
+This project is [MIT](https://github.com/Srilearns/Portfolio-Website-Mobile-First/blob/Finish-Mobile-Version/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
