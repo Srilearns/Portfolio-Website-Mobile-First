@@ -173,7 +173,10 @@ p {
   padding: 20px;
   margin-top: 104px;
   border: 1px solid #e6e8eb;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  align-items:center;
+  gap: 12px;
+  width: 295px;
+  height: 520px;
 }
 
 .lan {
@@ -210,9 +213,9 @@ p {
   justify-content: start;
   background: #f7f7f9;
   border-radius: 8px;
-  width: 100%;
-  gap: 10px;
-  margin: 5px 0;
+  width: 80%;
+  row-gap: 20px;
+  margin: 5px, 0;
   padding: 10px;
 }
 
@@ -230,6 +233,7 @@ p {
 .skills .skill li span i {
   font-size: 15px;
   color: #505f79;
+  align-items: center;
 }
 
 .work .card .cano li i {
@@ -288,13 +292,15 @@ p {
 }
 
 .btn-default:active {
-  background-color: #2230d2;
+  background-color:#6070ff;
   color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 .btn-default:hover {
-  background-color: #6070ff;
-  color: #b3b7d4;
+  background-color:#6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 /* About */
@@ -326,13 +332,13 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
+  padding: 15px, 0;
   border-bottom: 1px solid #dfe1e6;
 }
 
 .work .card h2 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 32px;
   color: #172b4d;
   margin-top: 0;
 }
