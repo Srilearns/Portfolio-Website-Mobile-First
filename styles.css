@@ -103,6 +103,17 @@ p {
   margin-top: 10px;
 }
 
+.social-nl a {
+  margin-right: 10px;
+  color: #505f79;
+  font-size: 25px;
+}
+
+.social a:hover {
+  color: #505f79;
+  opacity: 0.5;
+}
+
 /* Work */
   .work .card {
     flex-direction: row;
