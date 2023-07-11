@@ -227,9 +227,14 @@
            <p class="contact-p">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
              I'd love to help with it!</p>
            <form action="https://formspree.io/f/xjvjejyb" method="POST">
-             <input name="name" type="text" placeholder="Lorem Ipsum" required maxlength="30" >
-             <input name="email" type="email" placeholder="loremipsum@gmail.com" required>
-           </form>
+             <label for="name">Name:</label>
+             <input name="user_name" type="text" id="name" placeholder="Lorem Ipsum" required maxlength="30" >
+             <label for="mail">Email:</label>
+             <input name="user_email" id="mail" type="email" placeholder="loremipsum@gmail.com" required>
+             <label for="msg">Message:</label>
+             <textarea name="user_message" id="msg" placeholder="Leave a message" maxlength="500" required></textarea>
+             <button type="submit">Get in touch</button>
+            </form>
     </footer>
   </body>
 </html>
