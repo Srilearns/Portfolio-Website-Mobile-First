@@ -1,6 +1,3 @@
-/* stylelint-disable CssSyntaxError */
-/* stylelint-disable CssSyntaxError */
-
 * {
   padding: 0;
   margin: 0;
@@ -80,7 +77,7 @@ p {
 /* Banner Section */
 .banner {
   position: relative;
-  background-image: url("Images/bg/header-shapes\mobile.png");
+  background-image: url("Images/bg/header-shapes\ mobile.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center 50px;
@@ -262,7 +259,6 @@ p {
 .work .lang {
   display: flex;
   flex-wrap: wrap;
-  float: left;
 }
 
 .work .card-left-desk {
@@ -374,49 +370,6 @@ p {
   margin-top: 10px;
 }
 
-.contact {
-  display: flex;
-  flex-direction: column;
-  /*width: 100%;*/
-  background-color:  #6070ff;
-  margin-top: 4rem;
-  height: auto;
-
-}
-
-.contact-bg-img {
-  background-image: url('./Images/contact-bg-img.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 70%;
-  height: 500px;
-
-}
-
-input {
-  display: flex;
-  flex-direction: column;
-  width: 85%;
-  align-items: center;
-  margin-right: 1rem;
-  height: 3rem;
-  padding-left: 01rem;
-  font-size: 1rem;
-  font-weight: 500;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  background-color: #fff;
-  border: 0.1rem solid #ACB7C3;
-  border-radius: 0.5rem;
-  font-style: normal;
-  margin-left: 1rem;
-  margin-bottom: 0.8rem;
-  color: #7A869A;
-  margin-left: 2rem;
-
-}
-
-
-/* stylelint-disable-next-line CssSyntaxError */
 @media only screen and (min-width: 768px) {
   img {
     width: 100%;
@@ -450,7 +403,7 @@ input {
     background: #f7f7f9;
     border-radius: 8px;
 
-    /* width: 100%; */
+    width: 100%; 
     width: 122px;
     margin: 5px 0;
     margin-right: 10px;
@@ -548,6 +501,50 @@ input {
     width: 100%;
     margin-top: 20px;
   }
+}
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./Images/contact\ form\ shapes-mobile@2x.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: #6070ff;
+    margin-top: 113px;
+    width: 100%;
+    border-top-left-radius: 40px;
+  }
+  
+  .contact h2 {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    padding-top: 59px;
+    padding-left: 100px;
+  }
+  
+  .contact-p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding-top: 12px;
+    color: white;
+    margin-right: 24px;
+    margin-left: 24px;
+  }
+  
+  input {
+    height: 48px;
+    width: 327px;
+    border-radius: 8px;
+    padding-left: 10px;
+    margin: 12px 24px 11px 28px;
+    background-color: #fff;
+  }
+
+
+  
+
 
   
   
