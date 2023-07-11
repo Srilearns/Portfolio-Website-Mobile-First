@@ -190,6 +190,14 @@ p {
   font-size: 20px;
 }
 
+.contact h2 {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  padding-top: 59px;
+  padding-left: 100px;
+}
+
 .skill-lang li h2 {
   font-weight: 500;
   font-size: 15px;
@@ -402,8 +410,7 @@ p {
     justify-content: start;
     background: #f7f7f9;
     border-radius: 8px;
-
-    width: 100%; 
+    width: 100%;
     width: 122px;
     margin: 5px 0;
     margin-right: 10px;
@@ -503,91 +510,73 @@ p {
   }
 }
 
-  .contact {
-    display: flex;
-    flex-direction: column;
-    background-image: url("./Images/contact\ form\ shapes-mobile@2x.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-color: #6070ff;
-    margin-top: 113px;
-    width: 100%;
-    border-top-left-radius: 40px;
-  }
-  
-  .contact h2 {
-    font-size: 30px;
-    font-family: "Poppins", sans-serif;
-    color: #fff;
-    padding-top: 59px;
-    padding-left: 100px;
-  }
-  
-  .contact-p {
-    font-size: 15px;
-    font-weight: 400;
-    font-family: "Poppins", sans-serif;
-    padding-top: 12px;
-    color: white;
-    margin-right: 24px;
-    margin-left: 24px;
-  }
-  
-  input {
-    height: 48px;
-    width: 327px;
-    border-radius: 8px;
-    padding-left: 10px;
-    margin: 12px 24px 11px 28px;
-    background-color: #fff;
-  }
+.contact {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./Images/contact\ form\ shapes-mobile@2x.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-color: #6070ff;
+  margin-top: 113px;
+  width: 100%;
+  border-top-left-radius: 40px;
+}
 
-  textarea {
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    text-align: left;
-    width: 327px;
-    height: 170px;
-    border-radius: 8px;
-    margin: 12px 24px 11px 28px;
-    background-color: #fff;
-    padding-left: 10px;
-    padding-top: 0.5rem;
-  }
+.contact-p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  padding-top: 12px;
+  color: white;
+  margin-right: 24px;
+  margin-left: 24px;
+}
 
-  .contact button {
-    height: 48px;
-    width: 140px;
-    border-radius: 8px;
-    padding: 12px 16px 12px 16px;
-    margin-left: 26px;
-    margin-bottom: 12px;
-    color: blue;
-    background-color: #fff;
-  }
+input {
+  height: 48px;
+  width: 327px;
+  border-radius: 8px;
+  padding-left: 10px;
+  margin: 12px 24px 11px 28px;
+  background-color: #fff;
+}
 
-  .contact button :hover {
-    background-color: blue;
-    color: white;
-  }
+textarea {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  width: 327px;
+  height: 170px;
+  border-radius: 8px;
+  margin: 12px 24px 11px 28px;
+  background-color: #fff;
+  padding-left: 10px;
+  padding-top: 0.5rem;
+}
 
-  .contact button :active {
-    color: purple;
-  }
+.contact button {
+  height: 48px;
+  width: 140px;
+  border-radius: 8px;
+  padding: 12px 16px 12px 16px;
+  margin-left: 26px;
+  margin-bottom: 12px;
+  color: blue;
+  background-color: #fff;
+}
 
-  label {
-    padding-left: 2rem;
-    font-size: 1.2rem;
-  }
+.contact button :hover {
+  background-color: blue;
+  color: white;
+}
 
-  label {
+.contact button :active {
+  color: purple;
+}
+
+label {
   display: none;
-  }
-
-
-  
-
-
-  
-  
+  padding-left: 2rem;
+  font-size: 1.2rem;
+}
