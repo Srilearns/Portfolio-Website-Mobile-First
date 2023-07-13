@@ -37,7 +37,6 @@
     <!-- End of header container -->
 
     <!-- start of Main -->
-    <main>
         <!-- start of Banner -->
         <section class="banner">
             <div class="container">
@@ -222,9 +221,24 @@
             </div>
         </section>
         <!-- End of About -->
-
-    </main>
-    <!-- end of main -->
-</body>
-
+        
+    <section class="contact">
+        <div class="contact-bg-img">
+            <h2>Contact me</h2>
+           <p class="contact-p">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
+             I'd love to help with it!</p>
+           <form action="https://formspree.io/f/xjvjejyb" method="POST">
+             <label for="name">Name:</label>
+             <input name="user_name" type="text" id="name" placeholder="Lorem Ipsum" required maxlength="30" >
+             <label for="mail">Email:</label>
+             <input name="user_email" id="mail" type="email" placeholder="loremipsum@gmail.com" required>
+             <label for="msg">Message:</label>
+             <textarea name="user_message" id="msg" placeholder="Write your message here..." maxlength="500" required></textarea>
+             <button type="submit">Get in touch</button>
+            </form>
+            </div>
+            <div class="home-indicator">
+            </div>
+        </section>
+  </body>
 </html>
